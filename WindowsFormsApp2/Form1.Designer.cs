@@ -98,13 +98,14 @@
             this.reportingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.balanceStockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.palletizerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.requiredPaintsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thisDoorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.looseItemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtQuantitySame = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.chkIsProblem = new System.Windows.Forms.CheckBox();
-            this.requiredPaintsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cviewpaintingsectionsBindingSource)).BeginInit();
@@ -709,43 +710,50 @@
             this.palletizerToolStripMenuItem,
             this.requiredPaintsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // staffSetupToolStripMenuItem
             // 
             this.staffSetupToolStripMenuItem.Name = "staffSetupToolStripMenuItem";
-            this.staffSetupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.staffSetupToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.staffSetupToolStripMenuItem.Text = "Staff Setup";
             this.staffSetupToolStripMenuItem.Click += new System.EventHandler(this.staffSetupToolStripMenuItem_Click);
             // 
             // repaintsToolStripMenuItem
             // 
             this.repaintsToolStripMenuItem.Name = "repaintsToolStripMenuItem";
-            this.repaintsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.repaintsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.repaintsToolStripMenuItem.Text = "Repaints";
             this.repaintsToolStripMenuItem.Click += new System.EventHandler(this.repaintsToolStripMenuItem_Click);
             // 
             // reportingToolStripMenuItem
             // 
             this.reportingToolStripMenuItem.Name = "reportingToolStripMenuItem";
-            this.reportingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportingToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.reportingToolStripMenuItem.Text = "Reporting";
             this.reportingToolStripMenuItem.Click += new System.EventHandler(this.reportingToolStripMenuItem_Click);
             // 
             // balanceStockToolStripMenuItem
             // 
             this.balanceStockToolStripMenuItem.Name = "balanceStockToolStripMenuItem";
-            this.balanceStockToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.balanceStockToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.balanceStockToolStripMenuItem.Text = "Balance Stock";
             this.balanceStockToolStripMenuItem.Click += new System.EventHandler(this.balanceStockToolStripMenuItem_Click);
             // 
             // palletizerToolStripMenuItem
             // 
             this.palletizerToolStripMenuItem.Name = "palletizerToolStripMenuItem";
-            this.palletizerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.palletizerToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.palletizerToolStripMenuItem.Text = "Palletizer";
             this.palletizerToolStripMenuItem.Click += new System.EventHandler(this.palletizerToolStripMenuItem_Click);
+            // 
+            // requiredPaintsToolStripMenuItem
+            // 
+            this.requiredPaintsToolStripMenuItem.Name = "requiredPaintsToolStripMenuItem";
+            this.requiredPaintsToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.requiredPaintsToolStripMenuItem.Text = "Required Paints";
+            this.requiredPaintsToolStripMenuItem.Click += new System.EventHandler(this.requiredPaintsToolStripMenuItem_Click);
             // 
             // thisDoorToolStripMenuItem
             // 
@@ -798,12 +806,14 @@
             this.chkIsProblem.Text = "Flag note as problem";
             this.chkIsProblem.UseVisualStyleBackColor = true;
             // 
-            // requiredPaintsToolStripMenuItem
+            // label10
             // 
-            this.requiredPaintsToolStripMenuItem.Name = "requiredPaintsToolStripMenuItem";
-            this.requiredPaintsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.requiredPaintsToolStripMenuItem.Text = "Required Paints";
-            this.requiredPaintsToolStripMenuItem.Click += new System.EventHandler(this.requiredPaintsToolStripMenuItem_Click);
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(495, 182);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 93;
+            this.label10.Text = "label10";
             // 
             // Form1
             // 
@@ -811,6 +821,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(985, 749);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.chkIsProblem);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtQuantitySame);
@@ -950,6 +961,7 @@
         private System.Windows.Forms.ToolStripMenuItem palletizerToolStripMenuItem;
         private System.Windows.Forms.CheckBox chkIsProblem;
         private System.Windows.Forms.ToolStripMenuItem requiredPaintsToolStripMenuItem;
+        private System.Windows.Forms.Label label10;
     }
 }
 
