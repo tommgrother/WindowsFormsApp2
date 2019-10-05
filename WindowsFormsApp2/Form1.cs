@@ -1037,5 +1037,11 @@ namespace WindowsFormsApp2
             frmPaintRequirement pr = new frmPaintRequirement();
             pr.Show();
         }
+
+        private void Button4_Click_1(object sender, EventArgs e)
+        {
+            frm_rail frm = new frm_rail(Convert.ToInt32(txtSearch.Text));
+            frm.Show();
+        }
     }
 }
